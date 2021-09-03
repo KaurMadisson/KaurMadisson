@@ -27,3 +27,38 @@ console.log("Saad osta");
 else
     console.log("Ei saa osta")
 VM1043:4 Saad osta
+rahakott = Math.random()*50,
+    tootehind = 12;
+id ( rahakott > tootehind) console.log (" Sul on piisavalt raha "); {
+
+}
+VM629:3 Uncaught SyntaxError: Unexpected identifier
+rahakott = Math.random()*50,
+    tootehind = 12;
+if ( rahakott > tootehind) console.log (" Sul on piisavalt raha "); {
+
+}
+VM655:3  Sul on piisavalt raha 
+undefined
+console.log(rahakott)
+VM743:1 24.92805184204432
+undefined
+"Saan osta" + "Ei saa osta"
+'Saan ostaEi saa osta'
+"Sul on rahakotis" + rahakott
+'Sul on rahakotis24.92805184204432'
+rahakott = Math.random()*50
+19.995841871259103
+"Sul on rahakotis" +(rahakott+1)
+'Sul on rahakotis20.995841871259103'
+tootehind = 15;
+if (rahakott >= tootehind)
+console.log("Ei saa osta ");
+VM1490:3 Ei saa osta 
+undefined
+tootehind = 15;
+if (rahakott >= tootehind)
+console.log("Ei saa osta ");
+else
+    CONSOLE.LOG("Ei saa osta ");
+VM1613:3 Ei saa osta 
