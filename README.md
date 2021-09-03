@@ -20,3 +20,10 @@ if (rahakott > tootehind) console.log (" Sul pole piisavalt raha"); {
 
 }
 undefined
+rahakott = Math.random()*50
+tootehind = 15;
+if (rahakott >=tootehind)
+console.log("Saad osta");
+else
+    console.log("Ei saa osta")
+VM1043:4 Saad osta
