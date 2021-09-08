@@ -62,3 +62,20 @@ console.log("Ei saa osta ");
 else
     CONSOLE.LOG("Ei saa osta ");
 VM1613:3 Ei saa osta 
+ArvutMonitor = Math.random()*50
+KliendiRaha = Math.random()*200
+if ( ArvutiMonitor <= KliendiRaha)
+    console.log("Olete makse sooritanud")
+else console.log("Makse ei õnnestunud")
+VM885:4 Olete makse sooritanud
+nimi                  kogus    hind
+Razeri Meh.klaviatuur 10tk    80eur 
+"Värv" Must
+
+nimi                  kogus    hind
+HyperX kõrvaklappid   20tk     90eur
+"Värv" Must punasega
+
+Tellimused
+Andrei: tootenimi HyperX kõrvaklappid(mustad punasega)   kogus(1tk)      hind(90eur) tel:+3725515915 (tuleb kohale)
+Milvi: tootenimi Razeri meh.klaviatuur(must)    kogus(2tk)   hind(160eur) tel:+37255643577 (kojuvedu 3.50eur)
