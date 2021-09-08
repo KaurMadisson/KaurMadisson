@@ -68,6 +68,8 @@ if ( ArvutiMonitor <= KliendiRaha)
     console.log("Olete makse sooritanud")
 else console.log("Makse ei õnnestunud")
 VM885:4 Olete makse sooritanud
+
+
 nimi                  kogus    hind
 Razeri Meh.klaviatuur 10tk    80eur 
 "Värv" Must
