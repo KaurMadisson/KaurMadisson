@@ -81,3 +81,100 @@ HyperX kõrvaklappid   20tk     90eur
 Tellimused
 Andrei: tootenimi HyperX kõrvaklappid(mustad punasega)   kogus(1tk)      hind(90eur) tel:+3725515915 (tuleb kohale)
 Milvi: tootenimi Razeri meh.klaviatuur(must)    kogus(2tk)   hind(160eur) tel:+37255643577 (kojuvedu 3.50eur)
+// Object on key mis salvbestab key-value paare.
+// key: value
+let töötaja = {
+    nimi: "Kaur", palk:10}
+    
+
+  //skoop scope
+  let rahakott = 10;
+  let tootehind = 5;
+  if(rahakott>=tootehind) {
+        let rahakott = 30;
+        let rahakott = rahakott - tootehind
+        rahakott += 10
+  }
+  let summa = function () {
+  }      
+
+
+  typeof= näitab mis tüüpi infot on 
+
+
+  let töötaja = {nimi: "Kaur", palk:10}
+  let töötaja2= {
+  nimi: "Andrei"
+  palk: 54
+  rahakott: 11
+  maksaPalka: function () {
+      rahakott += palk
+  }
+
+  console.log(töötaja2.nimi)
+  console.log(töötaja2.rahakkott)
+  let muuda = "palk"
+  töötaja2.muuda +=54
+  töötaja2("palk")+=54
+
+
+  töötaja2.maksaPalk
+ 
+ 
+ /*
+Katlal on kolm temperatuurivahemikku
+0-20 on liiga külm
+21-40 on paras temperatuur
+ 41-60 on liiga kuum
+ */
+function checkTemp() {
+    let temp = 5;
+    if (temp < 0) {
+        console.log("Liiga külm)
+    } else if (temp > 20 && temp <=40){
+
+
+function checkTemp() {
+    let temp = 18
+    if (temp <0) {
+        console.log("Parajalt soe") {
+        } else if (temp > 10&& temp <=40){
+            console.log("Liiga külm"){
+
+            }
+          
+function kasKütta(temp) {
+    return temp > 20
+}
+function kasJahutada(temp) {
+    return temp > 40
+}
+
+let kasJahutada = true;
+if (1) {
+
+}
+/*
+Katlal on kolm temperatuurivahemikku
+0-20 on liiga külm
+21-40 on paras temperatuur
+ 41-60 on liiga kuum
+ */
+ function checkTemp (temp) {
+     console.log("temp on "+temp)
+     if (temp <0) {
+         console.log("Liiga külm")
+         return 0;
+     }else{
+         return 1;
+
+     }
+
+ }
+ let tulemus = checkTemp(5)
+ checkTemp(20)
+ checkTemp(25)
+ checkTemp(40)
+ checkTemp(45)
+ checkTemp(55)
+ 
