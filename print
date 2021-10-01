@@ -1,0 +1,8 @@
+let arr = [8,13,32,17,11,5];
+for(let i = 0; i < arr.length; i++) {
+ if (arr[i] > 10) {
+ console.log(arr[i])
+ } else {
+
+ }
+}
