@@ -1,21 +1,21 @@
 let Proovinud = 0 
 let vastus = Math.floor(Math.random() * 10) + 1
 console.log(vastus)
-while (password != vastus)
+while (pakkumine != vastus)
 {
-    password = prompt("Sisesta number")
+    pakkumine = prompt("Sisesta number")
     Proovinud++
     console.log('on proovinud', Proovinud )
     if (Proovinud > 2)
         break
-    if (password!=vastus)
+    if (pakkumine!=vastus)
     alert("Sorry, X ei ole õige number. ")
-    if (password == vastus -1 || password == vastus +1)
+    if (pakkumine == vastus -1 || pakkumine == vastus +1)
     alert("Lähedal oled")
-    if (password == null)
+    if (pakkumine == null)
         break 
 
 
 }
-if(password==vastus) console.log("Yay! Arvasid õige numbri ära!")
+if(pakkumine==vastus) console.log("Yay! Arvasid õige numbri ära!")
 else console.log("Proovi uuesti")
